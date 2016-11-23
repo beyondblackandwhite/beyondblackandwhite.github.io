@@ -1,0 +1,333 @@
+.parallax {
+            background-image: url("https://cmgajcpolitics.files.wordpress.com/2015/01/012615-insurance-kdj051.jpg");
+            height: 500px;
+            margin-left: 14.25%;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+    }
+.caption4 {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            color: black;
+            font-family: Arial,Helvetica,"Nimbus Sans L",sans-serif; 
+}
+.span1 {
+    position: center;
+    text-align: center;
+    font-family: Arial,Helvetica,"Nimbus Sans L",sans-serif;
+    width: 50%;
+    height: 100px;
+    background: #777;
+    color: aliceblue; 
+    font-size: 250%; 
+}
+ .scroll2 {
+            background-image: url("https://static1.squarespace.com/static/53e8d86be4b05c1e9eaecd46/t/571780ca27d4bdc148753563/1461158095773/?format=1000w");
+            height: 500px;
+            margin-left: 14.25%;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .caption2 {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            color: black;
+            font-family: Arial,Helvetica,"Nimbus Sans L",sans-serif; 
+        }
+.scroll3 {
+            background-image: url("http://michaeljwrites.com/wp-content/uploads/2015/04/charlotte_skyline_night___north_carolina___united_states.jpg");
+            height: 500px;
+            margin-left: 14.25%;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .caption3 {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            color: black;
+            font-family: Arial,Helvetica,"Nimbus Sans L",sans-serif; 
+        }
+ .scroll4 {
+            background-image: url("http://assets.nydailynews.com/polopoly_fs/1.2608549.1461172360!/img/httpImage/image.jpg_gen/derivatives/article_1200/anti-busing-demonstration-1970.jpg");
+            height: 500px;
+            margin-left: 14.25%;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+.scroll5 {
+     background-image: url("https://c.o0bg.com/rf/image_960w/Boston/2011-2020/2015/12/23/BostonGlobe.com/EditorialOpinion/Images/140709_CB_024.jpg");
+     height: 500px;
+     margin-left: 14.25%;
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+ /*Begin CSS for slider1 */        
+div#comparison { 
+  width: 856px;
+  height: 470px;
+  max-width: 1000px;
+  max-height: 600px;
+  overflow: hidden;
+  float: left;
+  padding-left: 11%;
+}
+div#comparison figure { 
+  background-image: url(http://www4.ncsu.edu/~jtnorri2/1971alt2.png); 
+  background-size: cover;
+  position: relative;
+  font-size: 0;
+  width: 856px; 
+  height: 470px;
+  margin: 0; 
+}
+div#comparison figure > img { 
+  position: relative;
+  width: 100%;
+}
+div#comparison figure div { 
+  background-image: url(http://www4.ncsu.edu/~jtnorri2/2015alt.png);
+  background-size: cover;
+  position: absolute;
+  width: 50%; 
+  box-shadow: 0 5px 10px -2px rgba(255, 0, 0, 1);
+  overflow: hidden;
+  bottom: 0;
+  height: 470px;
+}
+
+input[type=range]{
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  position: relative;
+  top: -2rem; left: -2%;
+  background-color: rgba(255,255,255,0.6);
+  width: 102%; 
+}
+input[type=range]:focus { 
+  outline: none; 
+}
+input[type=range]:active { 
+  outline: none;  
+}
+
+input[type=range]::-moz-range-track { 
+  -moz-appearance:none;
+    height:15px;
+    width: 98%;
+    background-color: rgba(255,255,255,0.5); 
+    position: relative;
+    outline: none;    
+ }
+input[type=range]::active { 
+  border: none; 
+  outline: none;
+}
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance:none;
+    width: 20px; height: 15px;   
+    background: #ff0000;
+    border-radius: 0;
+   }
+input[type=range]::-moz-range-thumb {
+  -moz-appearance: none;
+  width: 20px;
+  height: 15px;
+  background: #ff0000;
+  border-radius: 0;
+     }   
+input[type=range]:focus::-webkit-slider-thumb {
+    background: rgba(255, 0, 0, 1);
+   }
+input[type=range]:focus::-moz-range-thumb {
+    background: rgba(255, 0, 0, 1);
+   }
+    /* End CSS for slider1 */
+div#key {
+    width: 856px;
+    height: auto;
+    padding-left: 11%;
+    text-align: center;
+        }
+figure#fig1 {
+   float: right;
+   width: 500px;
+   margin: 0;
+}
+div#introdiv {
+    padding: 0 50px 0 50px; 
+}
+p#text {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16px;
+    line-height: 1.625rem; 
+}
+.text2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16px;
+    line-height: 1.625rem; 
+}
+.text3 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16px;
+    line-height: 1.625rem; 
+}
+h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 800;
+}
+/*Begin menu CSS*/
+#list1 {
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 14%; 
+height: 97.5%;
+position: fixed; 
+overflow: auto;
+background-color: #3b3b3b;
+}
+
+#list1 li {
+float: left;
+display: inline;
+position: relative;
+}
+
+#list1 li a {
+display: block;
+color: aliceblue;
+text-align: left;
+padding: 14px 16px;
+text-decoration: none;
+font-family: 'Droid Serif', serif; 
+font-size: 97%;
+}
+/*End menu CSS*/
+a:link{
+    color: navajowhite;
+}
+a:visited {
+    color: skyblue;
+}
+a:hover {
+    color: antiquewhite;
+}
+a:active {
+    color: aliceblue; 
+}
+a[href^="mailto"]:hover:after { content: " > " attr(title); }
+figure {
+    float: right;
+}
+figure figcaption {
+    text-align: center; 
+    height: 42px;
+    width: 500px; 
+}
+/*CSS for network modal image*/
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 900px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+/*End modal image CSS*/
