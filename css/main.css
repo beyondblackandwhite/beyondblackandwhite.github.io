@@ -169,7 +169,7 @@ div#key {
     width: 856px;
     height: auto;
     padding-left: 11%;
-    text-align: center;
+    text-align: left;
         }
 figure#fig1 {
    float: right;
@@ -244,7 +244,7 @@ figure {
     float: right;
 }
 figure figcaption {
-    text-align: center; 
+    text-align: left; 
     height: 42px;
     width: 500px; 
 }
