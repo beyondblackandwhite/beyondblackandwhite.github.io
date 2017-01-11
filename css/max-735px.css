@@ -1,0 +1,32 @@
+@media (min-width:601px) and (max-width:735px) {
+#list1 {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 20%; 
+        height: 100%;
+        position: fixed; 
+        overflow: auto;
+        background-color: #3b3b3b;
+    }
+    #list1 li a {
+        display: block;
+        color: aliceblue;
+        text-align: left;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: 'Droid Serif', serif; 
+        font-size: 65%;
+    }
+        figure img {
+        width: 350px;
+        padding-left: 20%;
+    }
+    figure figcaption {
+        text-align: left; 
+        height: 42px;
+        width: 300px;
+        font-size: 12px;
+        padding-left: 20%;
+    }
+}
