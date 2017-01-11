@@ -166,16 +166,11 @@ html, body {
     padding: 0;
 }
 div#key {
-    width: 856px;
+    width: 75%;
     height: auto;
     padding-left: 11%;
     text-align: left;
         }
-figure#fig1 {
-   float: right;
-   width: 500px;
-   margin: 0;
-}
 div#introdiv {
     padding: 0 50px 0 50px; 
 }
@@ -183,13 +178,13 @@ p#text {
     font-family: 'Libre Baskerville', serif;
     font-size: 16px;
     line-height: 1.625rem;
-    padding-right: 150px;
+    padding-right: 15%;
 }
 .text2 {
     font-family: 'Libre Baskerville', serif;
     font-size: 16px;
     line-height: 1.625rem;
-    padding-right: 150px;
+    padding-right: 15%;
 }
 h3 {
     font-family: 'Roboto Slab', serif;
@@ -201,7 +196,7 @@ h3 {
 list-style-type: none;
 margin: 0;
 padding: 0;
-width: 200px; 
+width: 14.25%; 
 height: 100%;
 position: fixed; 
 overflow: auto;
